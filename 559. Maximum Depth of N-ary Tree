@@ -1,0 +1,31 @@
+/**
+ * // Definition for a Node.
+ * function Node(val,children) {
+ *    this.val = val;
+ *    this.children = children;
+ * };
+ */
+
+/**
+ * @param {Node} root
+ * @return {number}
+ */
+var maxDepth = function(root) {
+    if (!root) {
+        return 0
+    }
+    let counter = 1;
+    let arr = [root, 'next'];
+    while(arr.length > 1) {
+        let node = arr.shift();
+        if(node === 'next') {
+            counter++;
+            arr.push('next')
+        } else {
+            arr.push(...node.children)
+            console.log(...node.children)
+        }
+    }
+    return counter;
+
+};
