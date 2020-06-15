@@ -1,0 +1,28 @@
+/**
+ * Definition for Employee.
+ * function Employee(id, importance, subordinates) {
+ *     this.id = id;
+ *     this.importance = importance;
+ *     this.subordinates = subordinates;
+ * }
+ */
+
+/**
+ * @param {Employee[]} employees
+ * @param {number} id
+ * @return {number}
+ */
+var GetImportance = function(employees, id) {
+    let importance_map = {};
+    //build a map
+    employees.forEach((ele) => {
+        importance_map[ele.id] = ele;
+    });
+    // get the importance value recursively
+    let res = importance_map[id].importance;
+    importance_map[id].subordinates.forEach((sub) => {
+        res += GetImportance(employees, sub)
+    })
+    return res
+    
+};
