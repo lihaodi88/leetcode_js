@@ -1,6 +1,10 @@
 # leetcode_js
 This repo will give some answers for the leetocode questions in js. Here is the list of the covered quesitons.
 
+[21. Merge Two Sorted Lists](21.%20Merge%20Two%20Sorted%20Lists)
+
+[83. Remove Duplicates from Sorted List](83.%20Remove%20Duplicates%20from%20Sorted%20List)
+
 [104. Maximum Depth of Binary Tree](104.%20Maximum%20Depth%20of%20Binary%20Tree)
 
 [559.Maximum Depth of N-ary Tree](559.%20Maximum%20Depth%20of%20N-ary%20Tree)
@@ -11,5 +15,4 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [1290. Convert Binary Number in a Linked List to Integer](1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer)
 
-[21. Merge Two Sorted Lists](21.%20Merge%20Two%20Sorted%20Lists)
 
