@@ -11,3 +11,5 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [1290. Convert Binary Number in a Linked List to Integer](1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer)
 
+[21. Merge Two Sorted Lists](21.%20Merge%20Two%20Sorted%20Lists)
+
