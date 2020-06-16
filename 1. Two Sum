@@ -1,0 +1,20 @@
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    let set = {};
+    let pointer = 0;
+    let res = [];
+    nums.forEach((num)=>{
+        let comp = target-num;
+        if(set[comp] === undefined) {
+            set[num] = pointer;
+            pointer++;
+        } else {
+            res.push(set[comp], pointer)
+        }
+    })
+    return res
+};
