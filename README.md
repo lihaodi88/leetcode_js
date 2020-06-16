@@ -15,4 +15,6 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [1290. Convert Binary Number in a Linked List to Integer](1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer)
 
+[206. Reverse Linked List](206.%20Reverse%20Linked%20List)
+
 
