@@ -9,6 +9,8 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [104. Maximum Depth of Binary Tree](104.%20Maximum%20Depth%20of%20Binary%20Tree)
 
+[141.141. Linked List Cycle](141.%20Linked%20List%20Cycle)
+
 [206. Reverse Linked List](206.%20Reverse%20Linked%20List)
 
 [559.Maximum Depth of N-ary Tree](559.%20Maximum%20Depth%20of%20N-ary%20Tree)
