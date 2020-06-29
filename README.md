@@ -31,6 +31,8 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [872. Leaf-Similar Trees](872.%20Leaf-Similar%20Trees)
 
+[876. Middle of the Linked List](876.%20Middle%20of%20the%20Linked%20List)
+
 [977. Squares of a Sorted Array](977.%20Squares%20of%20a%20Sorted%20Array)
 
 [1290. Convert Binary Number in a Linked List to Integer](1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer)
