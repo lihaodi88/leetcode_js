@@ -3,6 +3,8 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [1. Two Sum](1.%20Two%20Sum)
 
+[2. Add Two Numbers](2.%20Add%20Two%20Numbers)
+
 [21. Merge Two Sorted Lists](21.%20Merge%20Two%20Sorted%20Lists)
 
 [83. Remove Duplicates from Sorted List](83.%20Remove%20Duplicates%20from%20Sorted%20List)
@@ -32,6 +34,8 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 [1290. Convert Binary Number in a Linked List to Integer](1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer)
 
 [1365. How Many Numbers Are Smaller Than the Current Number](1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number)
+
+
 
 
 
