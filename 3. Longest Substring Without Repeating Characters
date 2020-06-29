@@ -1,0 +1,27 @@
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function(s) {
+    let arr = s.split('');
+    let set = [];
+    let res = 0;
+    let left = 0, right = 0;
+    while(left < arr.length && right < arr.length) {
+        let leftChar = arr[left];
+        let rightChar = arr[right];
+        if(set.indexOf(rightChar)!== -1) {
+            if(set.indexOf(leftChar)!== -1) {
+                set.splice(set.indexOf(leftChar), 1);
+            }
+            left++;
+        } else {
+            set.push(rightChar);
+            res = Math.max(res, set.length);
+            right++;
+
+        }
+    }
+    
+    return res;
+};
