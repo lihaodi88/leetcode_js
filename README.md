@@ -5,6 +5,8 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [2. Add Two Numbers](2.%20Add%20Two%20Numbers)
 
+[3. Longest Substring Without Repeating Characters](3.%20Longest%20Substring%20Without%20Repeating%20Characters)
+
 [21. Merge Two Sorted Lists](21.%20Merge%20Two%20Sorted%20Lists)
 
 [83. Remove Duplicates from Sorted List](83.%20Remove%20Duplicates%20from%20Sorted%20List)
