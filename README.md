@@ -9,6 +9,8 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [104. Maximum Depth of Binary Tree](104.%20Maximum%20Depth%20of%20Binary%20Tree)
 
+[111. Minimum Depth of Binary Tree](111.%20Minimum%20Depth%20of%20Binary%20Tree)
+
 [141. Linked List Cycle](141.%20Linked%20List%20Cycle)
 
 [160. Intersection of Two Linked Lists](160.%20Intersection%20of%20Two%20Linked%20Lists)
