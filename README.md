@@ -9,7 +9,11 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [21. Merge Two Sorted Lists](21.%20Merge%20Two%20Sorted%20Lists)
 
+[74. Search a 2D Matrix](74.%20Search%20a%202D%20Matrix)
+
 [83. Remove Duplicates from Sorted List](83.%20Remove%20Duplicates%20from%20Sorted%20List)
+
+[94. Binary Tree Inorder Traversal](94.%20Binary%20Tree%20Inorder%20Traversal)
 
 [104. Maximum Depth of Binary Tree](104.%20Maximum%20Depth%20of%20Binary%20Tree)
 
