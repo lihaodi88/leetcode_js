@@ -10,8 +10,11 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
+
 var postorderTraversal = function(root) {
     let res = [];
+
+    //thrivial solution
 //     function search(node,ans) {
 //         if (!node) return;
 //         search(node.left,ans);
@@ -45,6 +48,9 @@ var postorderTraversal = function(root) {
         }
         return list
     }
+
+    //search(root, res);
+    
     iterative_search(root, res)
     return res
 
