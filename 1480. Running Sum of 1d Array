@@ -1,0 +1,16 @@
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var runningSum = function(nums) {
+    let preSum = 0;
+    let res = [];
+    for(let i = 0; i < nums.length; i++ ) {
+        if (nums[i-1]) {
+            preSum += nums[i-1]
+        };
+        let ele = nums[i] + preSum;
+        res.push(ele)
+    }
+    return res
+};
