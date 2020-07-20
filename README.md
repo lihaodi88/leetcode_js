@@ -31,6 +31,8 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [559.Maximum Depth of N-ary Tree](559.%20Maximum%20Depth%20of%20N-ary%20Tree)
 
+[617. Merge Two Binary Trees](617.%20Merge%20Two%20Binary%20Trees)
+
 [690. Employee Importance](690.%20Employee%20Importance)
 
 [872. Leaf-Similar Trees](872.%20Leaf-Similar%20Trees)
