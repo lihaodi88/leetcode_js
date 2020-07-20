@@ -1,0 +1,59 @@
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number[]}
+ */
+
+var postorderTraversal = function(root) {
+    let res = [];
+
+    //thrivial solution
+//     function search(node,ans) {
+//         if (!node) return;
+//         search(node.left,ans);
+//         search(node.right, ans);
+//         ans.push(node.val);
+//     }
+//     search(root,res)
+//     return res
+    function iterative_search(node, list) {
+        let stack = [];
+        let pre = null;
+        if(node) {
+            stack.push(node);
+            while(stack && stack.length > 0) {
+                let current = stack[stack.length -1];
+                if ((current.left === null && current.right === null) || (pre && (pre === current.left || pre === current.right) )) {
+                    res.push(current.val);
+                    stack.pop();
+                    pre = current;
+                } else {
+                    if(current.right) {
+                        stack.push(current.right)
+                    } 
+                    if(current.left) {
+                        stack.push(current.left)
+                    }
+                }
+            }
+
+            
+        }
+        return list
+    }
+
+    //search(root, res);
+    
+    iterative_search(root, res)
+    return res
+
+};
+
+
