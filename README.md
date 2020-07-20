@@ -35,6 +35,8 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [690. Employee Importance](690.%20Employee%20Importance)
 
+[700. Search in a Binary Search Tree](700.%20Search%20in%20a%20Binary%20Search%20Tree)
+
 [872. Leaf-Similar Trees](872.%20Leaf-Similar%20Trees)
 
 [876. Middle of the Linked List](876.%20Middle%20of%20the%20Linked%20List)
