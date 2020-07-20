@@ -39,6 +39,8 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [977. Squares of a Sorted Array](977.%20Squares%20of%20a%20Sorted%20Array)
 
+[1282. Group the People Given the Group Size They Belong To](1282.%20Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To)
+
 [1290. Convert Binary Number in a Linked List to Integer](1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer)
 
 [1365. How Many Numbers Are Smaller Than the Current Number](1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number)
