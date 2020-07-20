@@ -1,0 +1,24 @@
+/**
+ * @param {number[]} groupSizes
+ * @return {number[][]}
+ */
+var groupThePeople = function(groupSizes) {
+    let ans = [];
+    let tempGroups = {};
+    for(let i = 0; i< groupSizes.length; i++) {
+        let groupSize = groupSizes[i];
+        let tempGroup = [];
+        if(tempGroups.hasOwnProperty(groupSize)) {
+            tempGroup = tempGroups[groupSize]
+        }
+        tempGroup.push(i);
+        tempGroups[groupSize] = tempGroup;
+        if(tempGroup.length === groupSize) {
+            ans.push(tempGroup);
+            delete tempGroups[groupSize]
+        }
+    }
+    return ans
+    
+    
+};
