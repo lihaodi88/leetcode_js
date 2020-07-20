@@ -43,7 +43,7 @@ This repo will give some answers for the leetocode questions in js. Here is the 
 
 [1365. How Many Numbers Are Smaller Than the Current Number](1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number)
 
-
+[1480. Running Sum of 1d Array](1480.%20Running%20Sum%20of%201d%20Array)
 
 
 
