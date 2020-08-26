@@ -1,5 +1,6 @@
 # leetcode_js
 This repo will give some answers for the leetocode questions in js. Here is the list of the covered quesitons.
+Some common algorithm patterns are also stored in folder #comman_algorith_pattern
 
 [1. Two Sum](1.%20Two%20Sum)
 
